@@ -59,45 +59,41 @@ require(['jquery'], function ($) {
 		 */
 		initBookMark: function () {
 			Storage.bookMark = [{
-				name: "6v",
-				url: "http://www.hao6v.net/",
-				icon: "icon/6v.jpg"
-			}, {
-				name: "CMCT",
-				url: "https://springsunday.net/login.php?returnto=torrents.php%3Fcat501%3D1%26cat503%3D1%26cat504%3D1",
-				icon: "icon/cmct.png"
-			}, {
-				name: "M-Team",
-				url: "https://tp.m-team.cc/login.php",
-				icon: "icon/mt.png"
-			}, {
-				name: "港知堂pt",
-				url: "https://discfan.net/login.php",
-				icon: "icon/gzt.pt.png"
-			}, {
-				name: "港知堂论坛",
-				url: "http://www.gztown.net/",
-				icon: "icon/gzt.png"	
-			}, {
-				name: "草榴",
-				url: "https://www.bluxp.com/",
-				icon: "icon/1024.gif"
-			}, {
-				name: "141JAV",
-				url: "https://www.141jav.com/",
-				icon: "icon/141jav.png"
-			}, {
-				name: "JavBus-欧美",
-				url: "https://www.javbus.one/",
-				icon: "icon/javbus.png"
-			}, {
 				name: "精选",
 				url: "choice()",
 				icon: "icon/discover.png"
 			}, {
-				name: "热榜",
-				url: "https://tophub.today",
-				icon: "icon/tophub.png"
+				name: "微博",
+				url: "https://weibo.com",
+				icon: "icon/weibo.png"
+			}, {
+				name: "Bilibili",
+				url: "https://m.bilibili.com",
+				icon: "icon/bilibilibog.png"
+			}, {
+				name: "1111",
+				url: "https://www.baidu.com",
+				icon: "icon/6v.jpg"
+			}, {
+				name: "2222",
+				url: "https://www.zhihu.com",
+				icon: "icon/zhihu.png"	
+			}, {
+				name: "淘宝",
+				url: "https://m.taobao.com",
+				icon: "icon/taobao.png"
+			}, {
+				name: "贴吧",
+				url: "https://tieba.baidu.com",
+				icon: "icon/tieba.png"
+			}, {
+				name: "IT之家",
+				url: "https://m.ithome.com",
+				icon: "icon/ithome.png"
+			}, {
+				name: "网易",
+				url: "https://3g.163.com",
+				icon: "icon/netease.png"
 			}];
 			store.set("bookMark", Storage.bookMark);
 		},
